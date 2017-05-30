@@ -16,11 +16,6 @@ var logLevelInt int
 var appEnv string
 var envLogLevel string
 
-// Stark Global Vars
-var starkUser string
-var starkPwd string
-var starkHost string
-
 type Log struct {
 	Uuid        string
 	Message     string
