@@ -39,6 +39,7 @@ func init() {
 	// var SilentUnusedWS = os.Getenv("PHOENIX_LOG_WS_SILENT")
 
 	//DEBUG move to ENV
+	// 'dev' appEnv enables human readable logging
 	appEnv = "dev"
 	envLogLevel = "5"
 
