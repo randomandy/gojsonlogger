@@ -1,4 +1,4 @@
-package main
+package logger
 
 import (
 	"encoding/json"
@@ -48,15 +48,6 @@ func init() {
 	if err != nil {
 		fmt.Fprintln(os.Stderr, "Invalid Log Level set in env!")
 	}
-}
-
-func main() {
-
-	Info(Log{
-		Uuid:    "SYSTEM PROCESS",
-		Module:  Trace(),
-		Message: "Foobar",
-	})
 }
 
 func Info(message Log) {
